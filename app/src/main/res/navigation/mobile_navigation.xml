@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/popularFragment">
+
+    <fragment
+        android:id="@+id/popularFragment"
+        android:name="com.oxcoding.movies.ui.popular.PopularFragment"
+        android:label="Popular Movies"
+        tools:layout="@layout/popular_fragment" />
+    <fragment
+        android:id="@+id/topRatedFragment"
+        android:name="com.oxcoding.movies.ui.top_rated.TopRatedFragment"
+        android:label="Top Rated Movies"
+        tools:layout="@layout/top_rated_fragment" />
+</navigation>
